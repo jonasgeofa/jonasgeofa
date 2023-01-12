@@ -1,0 +1,4 @@
+[31-Jan-2019 09:27:06 Asia/Jakarta] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/perfecta/public_html/pb-casual.net/wp-content/plugins/hello.php:60
+Stack trace:
+#0 {main}
+  thrown in /home/perfecta/public_html/pb-casual.net/wp-content/plugins/hello.php on line 60

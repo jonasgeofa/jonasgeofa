@@ -1,0 +1,149 @@
+0000.074 () Opened log file at time: Thu, 12 Jan 2023 14:19:51 +0000 on https://pb-casual.net
+0000.075 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.16 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 37.7M | 6M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.075 () Free space on disk containing Updraft's temporary directory: 371830.3 MB
+0000.185 () Restore setup, now closing connection and starting restore over AJAX.
+0000.046 () Opened log file at time: Thu, 12 Jan 2023 14:19:52 +0000 on https://pb-casual.net
+0000.047 () UpdraftPlus WordPress backup plugin (https://updraftplus.com): 2.16.58.25 WP: 4.9.16 PHP: 7.1.32 (apache2handler, Windows NT ASUS64 10.0 build 19042 (Windows 10) AMD64) MySQL: 10.4.6-MariaDB WPLANG: id_ID Server: Apache/2.4.41 (Win64) OpenSSL/1.0.2s PHP/7.1.32 safe_mode: 0 max_execution_time: 900 memory_limit: 256M (used: 33.8M | 26M) multisite: N openssl: OpenSSL 1.0.2r  26 Feb 2019 mcrypt: Y LANG:  ZipArchive::addFile: Y
+0000.047 () Free space on disk containing Updraft's temporary directory: 371830.1 MB
+0000.085 () Ensuring WP_Filesystem is setup for a restore
+0000.088 () WP_Filesystem is setup and ready for a restore
+0000.126 () Restore job started. Entities to restore: plugins, themes, uploads, others, db. Restore options: {"include_unspecified_tables":false,"tables_to_restore":["wpu4_options","wpu4_users","wpu4_usermeta","wpu4_commentmeta","wpu4_comments","wpu4_links","wpu4_postmeta","wpu4_posts","wpu4_term_relationships","wpu4_term_taxonomy","wpu4_termmeta","wpu4_terms","wpu4_aiowps_events","wpu4_aiowps_failed_logins","wpu4_aiowps_global_meta","wpu4_aiowps_login_activity","wpu4_aiowps_login_lockdown","wpu4_aiowps_permanent_block","wpu4_litespeed_img_optm","wpu4_litespeed_optimizer"],"tables_to_skip":[],"updraft_encryptionphrase":"","updraft_restorer_wpcore_includewpconfig":false,"updraft_incremental_restore_point":-1}
+0000.191 () Entity: db
+0000.191 () restore_backup(backup_file=backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-db.gz, type=db, info=a:0:{}, last_one=)
+0000.193 () Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-db.gz, 0.3 Mb)
+0000.198 () Database successfully unpacked
+0000.201 () Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0000.201 () Using direct MySQL access; value of use_mysqli is: 1
+0000.202 () SQL compatibility mode is: NO_AUTO_VALUE_ON_ZERO,NO_ZERO_IN_DATE,NO_ENGINE_SUBSTITUTION
+0001.388 () Max packet size: 32 MB
+0001.388 () Entering maintenance mode
+0001.388 () Mengaktifkan moda perawatan&#8230;
+0002.236 () Backup created by: 1.16.46
+0002.236 () Backup of: https://pb-casual.net
+0002.239 () Content URL: https://pb-casual.net/wp-content
+0002.239 () Uploads URL: https://pb-casual.net/wp-content/uploads
+0002.240 () Old table prefix: wpu4_
+0002.240 () Site information: multisite=0
+0002.241 () Site information: sql_mode=ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.245 () New table prefix: s1_
+0002.286 () Processing table (MyISAM): wpu4_options - will restore as: s1_options
+0002.442 () Atomic restore: dropping original table (pb_options)
+0002.566 () Atomic restore: renaming new table (s1_options) to final table name (pb_options)
+0002.570 () Restoring prior UD configuration (table: pb_options; keys: 4)
+0002.580 () Table prefix has changed: changing options table field(s) accordingly (options)
+0002.581 () Options table fields changed OK
+0002.588 () Processing table (MyISAM): wpu4_users - will restore as: s1_users
+0002.673 () Atomic restore: dropping original table (pb_users)
+0002.824 () Atomic restore: renaming new table (s1_users) to final table name (pb_users)
+0002.827 () Processing table (MyISAM): wpu4_usermeta - will restore as: s1_usermeta
+0002.875 () Atomic restore: dropping original table (pb_usermeta)
+0003.005 () Atomic restore: renaming new table (s1_usermeta) to final table name (pb_usermeta)
+0003.009 () Table prefix has changed: changing usermeta table field(s) accordingly
+0003.011 () Usermeta table fields changed OK
+0003.011 () Processing table (MyISAM): wpu4_commentmeta - will restore as: s1_commentmeta
+0003.039 () Atomic restore: dropping original table (pb_commentmeta)
+0003.191 () Atomic restore: renaming new table (s1_commentmeta) to final table name (pb_commentmeta)
+0003.194 () Processing table (MyISAM): wpu4_comments - will restore as: s1_comments
+0003.224 () Atomic restore: dropping original table (pb_comments)
+0003.333 () Atomic restore: renaming new table (s1_comments) to final table name (pb_comments)
+0003.339 () Processing table (MyISAM): wpu4_links - will restore as: s1_links
+0003.365 () Atomic restore: dropping original table (pb_links)
+0003.587 () Atomic restore: renaming new table (s1_links) to final table name (pb_links)
+0003.590 () Processing table (MyISAM): wpu4_postmeta - will restore as: s1_postmeta
+0003.726 () Atomic restore: dropping original table (pb_postmeta)
+0003.878 () Atomic restore: renaming new table (s1_postmeta) to final table name (pb_postmeta)
+0003.881 () Processing table (MyISAM): wpu4_posts - will restore as: s1_posts
+0003.979 () Atomic restore: dropping original table (pb_posts)
+0004.139 () Atomic restore: renaming new table (s1_posts) to final table name (pb_posts)
+0004.142 () Processing table (MyISAM): wpu4_term_relationships - will restore as: s1_term_relationships
+0004.173 () Atomic restore: dropping original table (pb_term_relationships)
+0004.346 () Atomic restore: renaming new table (s1_term_relationships) to final table name (pb_term_relationships)
+0004.350 () Processing table (MyISAM): wpu4_term_taxonomy - will restore as: s1_term_taxonomy
+0004.532 () Atomic restore: dropping original table (pb_term_taxonomy)
+0004.639 () Atomic restore: renaming new table (s1_term_taxonomy) to final table name (pb_term_taxonomy)
+0004.642 () Processing table (MyISAM): wpu4_termmeta - will restore as: s1_termmeta
+0004.676 () Atomic restore: dropping original table (pb_termmeta)
+0004.844 () Atomic restore: renaming new table (s1_termmeta) to final table name (pb_termmeta)
+0004.848 () Processing table (MyISAM): wpu4_terms - will restore as: s1_terms
+0004.909 () Atomic restore: dropping original table (pb_terms)
+0005.100 () Atomic restore: renaming new table (s1_terms) to final table name (pb_terms)
+0005.103 () Processing table (InnoDB): wpu4_aiowps_events - will restore as: s1_aiowps_events
+0005.246 () Atomic restore: dropping original table (pb_aiowps_events)
+0005.246 () Atomic restore: renaming new table (s1_aiowps_events) to final table name (pb_aiowps_events)
+0005.342 () Processing table (InnoDB): wpu4_aiowps_failed_logins - will restore as: s1_aiowps_failed_logins
+0009.597 () Atomic restore: dropping original table (pb_aiowps_failed_logins)
+0009.597 () Database queries processed: 50 in 9.39 seconds
+0009.598 () Atomic restore: renaming new table (s1_aiowps_failed_logins) to final table name (pb_aiowps_failed_logins)
+0009.802 () Processing table (InnoDB): wpu4_aiowps_global_meta - will restore as: s1_aiowps_global_meta
+0010.106 () Atomic restore: dropping original table (pb_aiowps_global_meta)
+0010.107 () Atomic restore: renaming new table (s1_aiowps_global_meta) to final table name (pb_aiowps_global_meta)
+0010.374 () Processing table (InnoDB): wpu4_aiowps_login_activity - will restore as: s1_aiowps_login_activity
+0010.775 () Atomic restore: dropping original table (pb_aiowps_login_activity)
+0010.777 () Atomic restore: renaming new table (s1_aiowps_login_activity) to final table name (pb_aiowps_login_activity)
+0011.047 () Processing table (InnoDB): wpu4_aiowps_login_lockdown - will restore as: s1_aiowps_login_lockdown
+0011.529 () Atomic restore: dropping original table (pb_aiowps_login_lockdown)
+0011.530 () Atomic restore: renaming new table (s1_aiowps_login_lockdown) to final table name (pb_aiowps_login_lockdown)
+0013.957 () Processing table (InnoDB): wpu4_aiowps_permanent_block - will restore as: s1_aiowps_permanent_block
+0014.271 () Atomic restore: dropping original table (pb_aiowps_permanent_block)
+0014.271 () Atomic restore: renaming new table (s1_aiowps_permanent_block) to final table name (pb_aiowps_permanent_block)
+0014.543 () Processing table (MyISAM): wpu4_litespeed_img_optm - will restore as: s1_litespeed_img_optm
+0014.589 () Atomic restore: dropping original table (pb_litespeed_img_optm)
+0014.590 () Atomic restore: renaming new table (s1_litespeed_img_optm) to final table name (pb_litespeed_img_optm)
+0014.594 () Processing table (MyISAM): wpu4_litespeed_optimizer - will restore as: s1_litespeed_optimizer
+0014.665 () UpdraftPlus Vault: this site has not been connected - check your settings
+0016.218 () Unlocking database and leaving maintenance mode
+0016.219 () Menonaktifkan moda perawatan&#8230;
+0016.221 () Atomic restore: dropping original table (pb_litespeed_optimizer)
+0016.223 () Atomic restore: renaming new table (s1_litespeed_optimizer) to final table name (pb_litespeed_optimizer)
+0016.236 () Finished: lines processed: 65 in 16.03 seconds
+0016.237 () Cleaning up rubbish...
+0016.238 () Begin search and replace (updraftplus_restored_db)
+0016.238 () [Database-replace-site-url] Database: search and replace site URL
+0016.238 () This option was not selected.
+0016.246 () Entity: plugins
+0016.246 () restore_backup(backup_file=backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-plugins.zip, type=plugins, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/plugins";s:11:"description";s:7:"Plugins";}, last_one=)
+0016.247 () Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-plugins.zip, 31.9 MB)
+0017.668 () Unzipping backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-plugins.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/c41cd476/ using UpdraftPlus_ZipArchive, starting index 0
+0020.960 () Unzip progress: 1002 out of 5447 files (1.5 MB, plugins/elementor/modules/history/revisions-manager.php)
+0026.434 () Unzip progress: 2003 out of 5447 files (24 MB, plugins/updraftplus/includes/blockui/jquery.blockUI.js)
+0028.156 () Unzip progress: 3004 out of 5447 files (30.2 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseCssFilter.php)
+0029.627 () Unzip progress: 4005 out of 5447 files (60.4 MB, plugins/cloudflare/assets/spinner.gif)
+0034.424 () Unzip progress: 5006 out of 5447 files (72.8 MB, plugins/all-in-one-seo-pack/admin/meta_import.php)
+0035.279 () Unzip progress: 5447 out of 5447 files (85.9 MB, plugins/index.php)
+0035.407 () Moving old data: filesystem method / updraft_dir is potentially possible
+0035.407 () Moving old data: can potentially use wp_filesystem method / -old
+0035.408 () Moving old data out of the way...
+0035.971 () Top-level entities being moved: akismet, hello.php, index.php, updraftplus
+0039.262 () Moving unpacked backup into place...
+0041.251 () Top-level entities being moved: advanced-excerpt, akismet, all-in-one-seo-pack, all-in-one-wp-security-and-firewall, anywhere-elementor, anywhere-elementor-pro, cloudflare, contact-form-7, elementor, elementor-pro, enable-media-replace, error_log, file-manager, hello.php, index.php, litespeed-cache, many-tips-together, press-elements, purge-cloud-flare, so-css, tinymce-advanced, updraftplus, wp-excerpt-settings, wp-file-manager.zip, wp-optimize, wp-super-cache
+0041.763 () Cleaning up rubbish...
+0041.771 () Entity: themes
+0041.771 () restore_backup(backup_file=backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-themes.zip, type=themes, info=a:2:{s:4:"path";s:37:"D:\xampp-7.1\htdocs/wp-content/themes";s:11:"description";s:6:"Themes";}, last_one=)
+0041.773 () Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-themes.zip, 1.2 MB)
+0041.774 () Unzipping backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-themes.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/d114e9ab/ using UpdraftPlus_ZipArchive, starting index 0
+0043.297 () Unzip progress: 256 out of 256 files (2.9 MB, themes/madxflow/woocommerce.php)
+0043.303 () Moving old data: filesystem method / updraft_dir is potentially possible
+0043.304 () Moving old data: can potentially use wp_filesystem method / -old
+0043.304 () Moving old data out of the way...
+0043.642 () Top-level entities being moved: index.php, twentyfifteen, twentyseventeen, twentysixteen
+0043.715 () Moving unpacked backup into place...
+0043.783 () Top-level entities being moved: index.php, madxflow
+0043.795 () Cleaning up rubbish...
+0043.810 () Entity: uploads
+0043.810 () restore_backup(backup_file=backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-uploads.zip, type=uploads, info=a:2:{s:4:"path";s:38:"D:\xampp-7.1\htdocs/wp-content/uploads";s:11:"description";s:7:"Uploads";}, last_one=)
+0043.811 () Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-uploads.zip, 1.8 MB)
+0043.813 () Unzipping backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-uploads.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/61c327b5/ using UpdraftPlus_ZipArchive, starting index 0
+0044.073 () Unzip progress: 89 out of 89 files (1.8 MB, uploads/tf-base-generated.css)
+0044.078 () Moving old data: filesystem method / updraft_dir is potentially possible
+0044.079 () Moving old data: can potentially use wp_filesystem method / -old
+0044.079 () Moving old data out of the way...
+0044.082 () Moving unpacked backup into place...
+0044.158 () Cleaning up rubbish...
+0044.162 () Entity: others
+0044.162 () restore_backup(backup_file=backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-others.zip, type=others, info=a:2:{s:4:"path";s:30:"D:\xampp-7.1\htdocs/wp-content";s:11:"description";s:6:"Others";}, last_one=1)
+0044.163 () Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-others.zip, 0 MB)
+0044.165 () Unzipping backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-others.zip to D:/xampp-7.1/htdocs/wp-content/upgrade/021f58a0/ using UpdraftPlus_ZipArchive, starting index 0
+0044.174 () Unzip progress: 3 out of 3 files (4.7 KB, wp-cache-config.php)
+0044.186 () Cleaning up rubbish...
+0044.269 () Restore successful!
+0044.269 () Restore successful

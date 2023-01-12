@@ -1,0 +1,112 @@
+0000.128 (R) [notice] Looking for db archive: file name: backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-db.gz
+0000.129 (R) [notice] Archive is expected to be size: 297.2 KB: OK
+0000.134 (R) [notice] Looking for plugins archive: file name: backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-plugins.zip
+0000.135 (R) [notice] Archive is expected to be size: 32646.7 KB: OK
+0000.138 (R) [notice] Looking for themes archive: file name: backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-themes.zip
+0000.140 (R) [notice] Archive is expected to be size: 1192.7 KB: OK
+0000.145 (R) [notice] Looking for uploads archive: file name: backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-uploads.zip
+0000.146 (R) [notice] Archive is expected to be size: 1892.6 KB: OK
+0000.149 (R) [notice] Looking for others archive: file name: backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-others.zip
+0000.150 (R) [notice] Archive is expected to be size: 2.4 KB: OK
+0000.193 (R) [notice] Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-db.gz, 0.3 Mb)
+0000.201 (R) [notice] Restoring the database (on a large site this can take a long time - if it times out (which can happen if your web hosting company has configured your hosting to limit resources) then you should use a different method, such as phpMyAdmin)...
+0001.388 (R) [notice] Mengaktifkan moda perawatan&#8230;
+0002.236 (R) [notice] Backup created by: 1.16.46
+0002.236 (R) [notice] Backup of: https://pb-casual.net
+0002.238 (R) [notice] Content URL: https://pb-casual.net/wp-content
+0002.239 (R) [notice] Uploads URL: https://pb-casual.net/wp-content/uploads
+0002.240 (R) [notice] Old table prefix: wpu4_
+0002.240 (R) [notice] Site information: multisite = 0
+0002.240 (R) [notice] Site information: sql_mode = ERROR_FOR_DIVISION_BY_ZERO,NO_AUTO_CREATE_USER,NO_ENGINE_SUBSTITUTION
+0002.245 (R) [notice] New table prefix: s1_
+0002.286 (R) [notice] Processing table (MyISAM):  wpu4_options - will restore as: s1_options
+0002.442 (R) [notice] Atomic restore: dropping original table (pb_options)
+0002.566 (R) [notice] Atomic restore: renaming new table (s1_options) to final table name (pb_options)
+0002.581 (R) [notice] Table prefix has changed: changing option table field(s) accordingly: OK
+0002.588 (R) [notice] Processing table (MyISAM):  wpu4_users - will restore as: s1_users
+0002.673 (R) [notice] Atomic restore: dropping original table (pb_users)
+0002.824 (R) [notice] Atomic restore: renaming new table (s1_users) to final table name (pb_users)
+0002.827 (R) [notice] Processing table (MyISAM):  wpu4_usermeta - will restore as: s1_usermeta
+0002.875 (R) [notice] Atomic restore: dropping original table (pb_usermeta)
+0003.006 (R) [notice] Atomic restore: renaming new table (s1_usermeta) to final table name (pb_usermeta)
+0003.011 (R) [notice] Table prefix has changed: changing usermeta table field(s) accordingly: OK
+0003.011 (R) [notice] Processing table (MyISAM):  wpu4_commentmeta - will restore as: s1_commentmeta
+0003.039 (R) [notice] Atomic restore: dropping original table (pb_commentmeta)
+0003.191 (R) [notice] Atomic restore: renaming new table (s1_commentmeta) to final table name (pb_commentmeta)
+0003.194 (R) [notice] Processing table (MyISAM):  wpu4_comments - will restore as: s1_comments
+0003.224 (R) [notice] Atomic restore: dropping original table (pb_comments)
+0003.333 (R) [notice] Atomic restore: renaming new table (s1_comments) to final table name (pb_comments)
+0003.339 (R) [notice] Processing table (MyISAM):  wpu4_links - will restore as: s1_links
+0003.365 (R) [notice] Atomic restore: dropping original table (pb_links)
+0003.587 (R) [notice] Atomic restore: renaming new table (s1_links) to final table name (pb_links)
+0003.591 (R) [notice] Processing table (MyISAM):  wpu4_postmeta - will restore as: s1_postmeta
+0003.726 (R) [notice] Atomic restore: dropping original table (pb_postmeta)
+0003.878 (R) [notice] Atomic restore: renaming new table (s1_postmeta) to final table name (pb_postmeta)
+0003.881 (R) [notice] Processing table (MyISAM):  wpu4_posts - will restore as: s1_posts
+0003.979 (R) [notice] Atomic restore: dropping original table (pb_posts)
+0004.139 (R) [notice] Atomic restore: renaming new table (s1_posts) to final table name (pb_posts)
+0004.142 (R) [notice] Processing table (MyISAM):  wpu4_term_relationships - will restore as: s1_term_relationships
+0004.173 (R) [notice] Atomic restore: dropping original table (pb_term_relationships)
+0004.346 (R) [notice] Atomic restore: renaming new table (s1_term_relationships) to final table name (pb_term_relationships)
+0004.350 (R) [notice] Processing table (MyISAM):  wpu4_term_taxonomy - will restore as: s1_term_taxonomy
+0004.533 (R) [notice] Atomic restore: dropping original table (pb_term_taxonomy)
+0004.639 (R) [notice] Atomic restore: renaming new table (s1_term_taxonomy) to final table name (pb_term_taxonomy)
+0004.642 (R) [notice] Processing table (MyISAM):  wpu4_termmeta - will restore as: s1_termmeta
+0004.676 (R) [notice] Atomic restore: dropping original table (pb_termmeta)
+0004.844 (R) [notice] Atomic restore: renaming new table (s1_termmeta) to final table name (pb_termmeta)
+0004.848 (R) [notice] Processing table (MyISAM):  wpu4_terms - will restore as: s1_terms
+0004.909 (R) [notice] Atomic restore: dropping original table (pb_terms)
+0005.100 (R) [notice] Atomic restore: renaming new table (s1_terms) to final table name (pb_terms)
+0005.103 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_events - will restore as: s1_aiowps_events
+0005.246 (R) [notice] Atomic restore: dropping original table (pb_aiowps_events)
+0005.247 (R) [notice] Atomic restore: renaming new table (s1_aiowps_events) to final table name (pb_aiowps_events)
+0005.343 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_failed_logins - will restore as: s1_aiowps_failed_logins
+0009.597 (R) [notice] Atomic restore: dropping original table (pb_aiowps_failed_logins)
+0009.598 (R) [notice] Database queries processed: 50 in 9.39 seconds
+0009.598 (R) [notice] Atomic restore: renaming new table (s1_aiowps_failed_logins) to final table name (pb_aiowps_failed_logins)
+0009.803 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_global_meta - will restore as: s1_aiowps_global_meta
+0010.106 (R) [notice] Atomic restore: dropping original table (pb_aiowps_global_meta)
+0010.108 (R) [notice] Atomic restore: renaming new table (s1_aiowps_global_meta) to final table name (pb_aiowps_global_meta)
+0010.374 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_login_activity - will restore as: s1_aiowps_login_activity
+0010.775 (R) [notice] Atomic restore: dropping original table (pb_aiowps_login_activity)
+0010.777 (R) [notice] Atomic restore: renaming new table (s1_aiowps_login_activity) to final table name (pb_aiowps_login_activity)
+0011.047 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_login_lockdown - will restore as: s1_aiowps_login_lockdown
+0011.529 (R) [notice] Atomic restore: dropping original table (pb_aiowps_login_lockdown)
+0011.530 (R) [notice] Atomic restore: renaming new table (s1_aiowps_login_lockdown) to final table name (pb_aiowps_login_lockdown)
+0013.957 (R) [notice] Processing table (InnoDB):  wpu4_aiowps_permanent_block - will restore as: s1_aiowps_permanent_block
+0014.271 (R) [notice] Atomic restore: dropping original table (pb_aiowps_permanent_block)
+0014.272 (R) [notice] Atomic restore: renaming new table (s1_aiowps_permanent_block) to final table name (pb_aiowps_permanent_block)
+0014.543 (R) [notice] Processing table (MyISAM):  wpu4_litespeed_img_optm - will restore as: s1_litespeed_img_optm
+0014.589 (R) [notice] Atomic restore: dropping original table (pb_litespeed_img_optm)
+0014.590 (R) [notice] Atomic restore: renaming new table (s1_litespeed_img_optm) to final table name (pb_litespeed_img_optm)
+0014.594 (R) [notice] Processing table (MyISAM):  wpu4_litespeed_optimizer - will restore as: s1_litespeed_optimizer
+0016.219 (R) [notice] Menonaktifkan moda perawatan&#8230;
+0016.221 (R) [notice] Atomic restore: dropping original table (pb_litespeed_optimizer)
+0016.224 (R) [notice] Atomic restore: renaming new table (s1_litespeed_optimizer) to final table name (pb_litespeed_optimizer)
+0016.236 (R) [notice] Finished: lines processed: 65 in 16.03 seconds
+0016.237 (R) [notice] Cleaning up rubbish...
+0016.238 (R) [notice] This option was not selected.
+0016.247 (R) [notice] Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-plugins.zip, 31.9 MB)
+0020.959 (R) [notice] Unzip progress: 1002 out of 5447 files (1.5 MB, plugins/elementor/modules/history/revisions-manager.php)
+0026.434 (R) [notice] Unzip progress: 2003 out of 5447 files (24 MB, plugins/updraftplus/includes/blockui/jquery.blockUI.js)
+0028.156 (R) [notice] Unzip progress: 3004 out of 5447 files (30.2 MB, plugins/updraftplus/vendor/kriswallsmith/assetic/src/Assetic/Filter/BaseCssFilter.php)
+0029.626 (R) [notice] Unzip progress: 4005 out of 5447 files (60.4 MB, plugins/cloudflare/assets/spinner.gif)
+0034.424 (R) [notice] Unzip progress: 5006 out of 5447 files (72.8 MB, plugins/all-in-one-seo-pack/admin/meta_import.php)
+0035.279 (R) [notice] Unzip progress: 5447 out of 5447 files (85.9 MB, plugins/index.php)
+0035.408 (R) [notice] Moving old data out of the way...
+0039.262 (R) [notice] Moving unpacked backup into place...
+0041.763 (R) [notice] Cleaning up rubbish...
+0041.773 (R) [notice] Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-themes.zip, 1.2 MB)
+0043.297 (R) [notice] Unzip progress: 256 out of 256 files (2.9 MB, themes/madxflow/woocommerce.php)
+0043.304 (R) [notice] Moving old data out of the way...
+0043.715 (R) [notice] Moving unpacked backup into place...
+0043.795 (R) [notice] Cleaning up rubbish...
+0043.811 (R) [notice] Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-uploads.zip, 1.8 MB)
+0044.073 (R) [notice] Unzip progress: 89 out of 89 files (1.8 MB, uploads/tf-base-generated.css)
+0044.079 (R) [notice] Moving old data out of the way...
+0044.082 (R) [notice] Moving unpacked backup into place...
+0044.158 (R) [notice] Cleaning up rubbish...
+0044.163 (R) [notice] Unpacking backup... (backup_2023-01-12-1345_PBCasual_International_2e1cf8f9d015-others.zip, 0 MB)
+0044.174 (R) [notice] Unzip progress: 3 out of 3 files (4.7 KB, wp-cache-config.php)
+0044.186 (R) [notice] Cleaning up rubbish...
+0044.269 (R) [notice] Restore successful!
